@@ -14,3 +14,14 @@ and you have reverse shell:
 
 
 In the the medium section we can do the similar but we have to just edit the rev.php to rev.php.jpej so that it can easily bypass.
+
+
+Patch:
+
+Check file extension and MIME type.
+
+Rename files before saving.
+
+Store outside web root.
+
+Disable PHP execution in upload directory.
