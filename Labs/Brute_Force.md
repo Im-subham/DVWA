@@ -20,3 +20,9 @@ After the completion of brute forcing i the uniqe length in result
 
  And from that uniqe result i get the correct username and password.
  
+PATCHES
+Implement rate limiting (e.g., block IP after 5 failed attempts).
+
+Add CAPTCHA after a few failed attempts.
+
+Log all login attempts and alert on multiple failures.
