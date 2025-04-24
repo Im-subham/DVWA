@@ -11,3 +11,12 @@ we can give our arbitrary command to execute with the help of pipe | ,so let's c
  | ls
 
  ![Screenshot 2025-04-25 025308](https://github.com/user-attachments/assets/30e5c8bd-d30e-4e3d-abd4-8a08710f5292)
+
+
+Patches:
+
+Use escapeshellarg() or escapeshellcmd() in PHP.
+
+Validate and sanitize input strictly (whitelist allowed values).
+
+Avoid shell commands if not needed.
