@@ -19,8 +19,8 @@ And this is the result
 ![Screenshot 2025-04-25 030125](https://github.com/user-attachments/assets/92186498-5e1d-4b6a-b022-2d5e81b275cf)
 
 
-Patch:
+ Patch:
 
-Escape output using htmlspecialchars() in PHP.
+Always escape output using htmlspecialchars() to prevent execution of HTML or JavaScript.
 
-Use a content security policy (CSP) header.
+You can also use a Content Security Policy (CSP) header as an additional layer of protection.
