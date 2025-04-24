@@ -13,3 +13,8 @@ We can extract all passwords with payload:
 ![Screenshot 2025-04-25 031223](https://github.com/user-attachments/assets/3eb42d8a-c3c3-4bbf-9375-4686e54bd4e8)
 
 
+Patch:
+
+Use prepared statements (PDO/MySQLi).
+
+Sanitize input.
