@@ -17,3 +17,10 @@ payload = <scr<script>ipt>alert(1)</script>
 
 And this is the result
 ![Screenshot 2025-04-25 030125](https://github.com/user-attachments/assets/92186498-5e1d-4b6a-b022-2d5e81b275cf)
+
+
+Patch:
+
+Escape output using htmlspecialchars() in PHP.
+
+Use a content security policy (CSP) header.
